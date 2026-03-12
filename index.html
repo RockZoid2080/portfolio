@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Aman Singh — Portfolio | Machine Learning Engineer, Python Developer, B.Tech CSE Student. Explore my projects, skills, and experience in Data Science and AI." />
+  <meta name="keywords" content="Aman Singh, Portfolio, Machine Learning, Deep Learning, Python, Computer Vision, Data Science, B.Tech CSE" />
+  <meta name="author" content="Aman Singh" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Aman Singh — ML Engineer & Python Developer" />
+  <meta property="og:description" content="Explore my portfolio — machine learning projects, deep learning research, and software development work." />
+  <meta property="og:type" content="website" />
+
+  <title>Aman Singh — ML Engineer & Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Devicons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ======== NAVIGATION ======== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">AS</a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div style="display: flex; align-items: center; gap: 12px;">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <i class="fas fa-sun"></i>
+        </button>
+        <div class="nav-hamburger" id="navHamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ======== HERO SECTION ======== -->
+  <section class="hero section" id="hero">
+    <!-- Animated Background -->
+    <div class="hero-bg">
+      <div class="orb orb-1"></div>
+      <div class="orb orb-2"></div>
+      <div class="orb orb-3"></div>
+    </div>
+    <div class="hero-particles"></div>
+
+    <div class="hero-content">
+      <div class="hero-profile">
+        <img src="assets/images/profile.png" alt="Aman Singh" />
+      </div>
+
+      <span class="hero-badge">👋 Welcome to my portfolio</span>
+
+      <h1>Hi, I'm <span class="gradient-text">Aman Singh</span></h1>
+
+      <p class="hero-tagline">Data Science Enthusiast | ML Engineer | B.Tech CSE</p>
+
+      <div class="typing-wrapper">
+        <span class="typing-text" id="typingText"></span><span class="typing-cursor"></span>
+      </div>
+
+      <div class="hero-buttons">
+        <a href="https://github.com/RockZoid2080" target="_blank" rel="noopener" class="btn btn-primary">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/amansingh2005" target="_blank" rel="noopener" class="btn btn-outline">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="assets/Aman_Singh_Resume.pdf" download class="btn btn-glass">
+          <i class="fas fa-download"></i> Resume
+        </a>
+      </div>
+    </div>
+
+    <div class="scroll-indicator">
+      <span>Scroll Down</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- ======== ABOUT SECTION ======== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="accent-line"></div>
+        <h2>About Me</h2>
+        <p>Passionate about transforming data into intelligent solutions</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal-left">
+          <p>
+            I'm <strong>Aman Singh</strong>, a 3rd-year <strong>B.Tech Computer Science Engineering</strong>
+            student at <strong>Lovely Professional University</strong>, Punjab. I specialize in
+            <strong>Machine Learning</strong>, <strong>Deep Learning</strong>, and <strong>Computer Vision</strong>.
+          </p>
+          <p>
+            My journey in tech is driven by curiosity and a desire to solve real-world problems using
+            AI. From building real-time <strong>sign language recognition systems</strong> to developing
+            <strong>deepfake detection models</strong>, I love turning complex challenges into elegant solutions.
+          </p>
+          <p>
+            When I'm not coding, you'll find me solving problems on LeetCode, exploring new ML research papers,
+            or contributing to open-source projects. I believe in continuous learning and building things that make
+            a difference.
+          </p>
+        </div>
+
+        <div class="about-stats stagger-children">
+          <div class="glass-card stat-card">
+            <div class="stat-number">2+</div>
+            <div class="stat-label">ML Projects Built</div>
+          </div>
+          <div class="glass-card stat-card">
+            <div class="stat-number">100+</div>
+            <div class="stat-label">LeetCode Problems</div>
+          </div>
+          <div class="glass-card stat-card">
+            <div class="stat-number">5★</div>
+            <div class="stat-label">HackerRank Python</div>
+          </div>
+          <div class="glass-card stat-card">
+            <div class="stat-number">6</div>
+            <div class="stat-label">Certifications</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== SKILLS SECTION ======== -->
+  <section class="section" id="skills" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="accent-line"></div>
+        <h2>Skills & Technologies</h2>
+        <p>Tools and languages I use to bring ideas to life</p>
+      </div>
+
+      <div class="skills-grid stagger-children">
+        <!-- Languages -->
+        <div class="glass-card skill-category">
+          <h3><i class="fas fa-code"></i> Programming Languages</h3>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="devicon-python-plain colored"></i> Python</span>
+              <span class="skill-percentage">90%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="devicon-cplusplus-plain colored"></i> C++</span>
+              <span class="skill-percentage">75%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="75"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="devicon-html5-plain colored"></i> HTML</span>
+              <span class="skill-percentage">80%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="80"></div></div>
+          </div>
+        </div>
+
+        <!-- ML / DL -->
+        <div class="glass-card skill-category">
+          <h3><i class="fas fa-brain"></i> ML / Deep Learning</h3>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="devicon-tensorflow-original colored"></i> TensorFlow</span>
+              <span class="skill-percentage">85%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="devicon-pytorch-original colored"></i> PyTorch</span>
+              <span class="skill-percentage">70%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="70"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="devicon-opencv-plain colored"></i> OpenCV</span>
+              <span class="skill-percentage">80%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="80"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="fas fa-chart-line"></i> Scikit-learn</span>
+              <span class="skill-percentage">82%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="82"></div></div>
+          </div>
+        </div>
+
+        <!-- Data Science -->
+        <div class="glass-card skill-category">
+          <h3><i class="fas fa-chart-bar"></i> Data Science & Tools</h3>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="devicon-pandas-original colored"></i> Pandas</span>
+              <span class="skill-percentage">88%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="88"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="devicon-numpy-original colored"></i> NumPy</span>
+              <span class="skill-percentage">85%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="devicon-matplotlib-plain colored"></i> Matplotlib</span>
+              <span class="skill-percentage">78%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="78"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="devicon-mysql-plain colored"></i> MySQL</span>
+              <span class="skill-percentage">72%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="72"></div></div>
+          </div>
+
+          <div class="skill-item">
+            <div class="skill-info">
+              <span class="skill-name"><i class="devicon-git-plain colored"></i> Git</span>
+              <span class="skill-percentage">80%</span>
+            </div>
+            <div class="skill-bar"><div class="skill-bar-fill" data-width="80"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== PROJECTS SECTION ======== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="accent-line"></div>
+        <h2>Featured Projects</h2>
+        <p>Here are some of the things I've built</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="projects-filter reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="python">Python</button>
+        <button class="filter-btn" data-filter="tensorflow">TensorFlow</button>
+        <button class="filter-btn" data-filter="opencv">OpenCV</button>
+        <button class="filter-btn" data-filter="deep-learning">Deep Learning</button>
+        <button class="filter-btn" data-filter="cnn">CNN</button>
+      </div>
+
+      <!-- Project Cards -->
+      <div class="projects-grid">
+
+        <!-- Project 1: Sign Language Recognition -->
+        <div class="glass-card project-card reveal" data-tags="python tensorflow opencv deep-learning">
+          <div class="project-card-image">
+            <img src="assets/images/project-sign-language.png" alt="Real-Time Sign Language Recognition System" loading="lazy" />
+            <div class="project-card-overlay">
+              <a href="https://github.com/RockZoid2080/Real-time-sign-language-management-system-" target="_blank" class="btn btn-primary" style="padding: 8px 18px; font-size: 0.82rem;">
+                <i class="fab fa-github"></i> Code
+              </a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <span class="project-card-date"><i class="far fa-calendar-alt"></i> January 2025</span>
+            <h3>Real-Time Sign Language Recognition</h3>
+            <p>Built a real-time system that captures hand-sign images and predicts the corresponding alphabet using a deep learning classification pipeline. Achieved ~95% accuracy.</p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">TensorFlow</span>
+              <span class="project-tag">OpenCV</span>
+              <span class="project-tag">NumPy</span>
+            </div>
+          </div>
+          <div class="project-card-links">
+            <a href="https://github.com/RockZoid2080/Real-time-sign-language-management-system-" target="_blank"><i class="fab fa-github"></i> Source Code</a>
+          </div>
+        </div>
+
+        <!-- Project 2: DeepFake Detection -->
+        <div class="glass-card project-card reveal" data-tags="python tensorflow opencv deep-learning cnn">
+          <div class="project-card-image">
+            <img src="assets/images/project-deepfake.png" alt="DeepFake Face Swap Detection" loading="lazy" />
+            <div class="project-card-overlay">
+              <a href="https://github.com/RockZoid2080/Deepfake-Face-Swap-Detection-System" target="_blank" class="btn btn-primary" style="padding: 8px 18px; font-size: 0.82rem;">
+                <i class="fab fa-github"></i> Code
+              </a>
+            </div>
+          </div>
+          <div class="project-card-body">
+            <span class="project-card-date"><i class="far fa-calendar-alt"></i> November 2025</span>
+            <h3>DeepFake Face Swap Detection</h3>
+            <p>CNN-based binary classification model to detect AI-generated face swap deepfakes in images and videos. Compared Adam, SGD, and RMSProp optimizers for best performance.</p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">TensorFlow</span>
+              <span class="project-tag">CNN</span>
+              <span class="project-tag">OpenCV</span>
+            </div>
+          </div>
+          <div class="project-card-links">
+            <a href="https://github.com/RockZoid2080/Deepfake-Face-Swap-Detection-System" target="_blank"><i class="fab fa-github"></i> Source Code</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== EDUCATION TIMELINE ======== -->
+  <section class="section" id="education" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="accent-line"></div>
+        <h2>Education</h2>
+        <p>My academic journey</p>
+      </div>
+
+      <div class="timeline stagger-children">
+        <div class="glass-card timeline-item">
+          <h3>B.Tech — Computer Science &amp; Engineering</h3>
+          <div class="timeline-meta"><i class="fas fa-university"></i> Lovely Professional University, Phagwara, Punjab</div>
+          <p>Aug 2021 – Present &bull; CGPA: 6.9</p>
+        </div>
+
+        <div class="glass-card timeline-item">
+          <h3>Intermediate (12th)</h3>
+          <div class="timeline-meta"><i class="fas fa-school"></i> Bharatiya/Bhavans KDKVM, Renukoot, U.P</div>
+          <p>Apr 2022 – Mar 2023 &bull; Percentage: 82%</p>
+        </div>
+
+        <div class="glass-card timeline-item">
+          <h3>Matriculation (10th)</h3>
+          <div class="timeline-meta"><i class="fas fa-school"></i> Bharatiya/Bhavans KDKVM, Renukoot, U.P</div>
+          <p>Apr 2020 – Mar 2021 &bull; Percentage: 92%</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== CERTIFICATIONS ======== -->
+  <section class="section" id="certifications">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="accent-line"></div>
+        <h2>Certifications</h2>
+        <p>Credentials that validate my skills</p>
+      </div>
+
+      <div class="certifications-grid stagger-children">
+        <div class="glass-card cert-card">
+          <div class="cert-icon"><i class="fas fa-robot"></i></div>
+          <div class="cert-info">
+            <h3>ChatGPT-4 Prompt Engineering | Generative AI &amp; LLM</h3>
+            <div class="cert-issuer">Infosys Springboard</div>
+            <div class="cert-date">August 2025</div>
+            <a href="https://drive.google.com/file/d/1DSaaT-VYXaG7tIPn_VGEJtpaNJGDL8z1/view?usp=drive_link" target="_blank" style="color: var(--accent-primary); font-size: 0.82rem; font-weight: 600; margin-top: 6px; display: inline-flex; align-items: center; gap: 4px;"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+          </div>
+        </div>
+
+        <div class="glass-card cert-card">
+          <div class="cert-icon"><i class="fas fa-sitemap"></i></div>
+          <div class="cert-info">
+            <h3>Basics of Data Structures &amp; Algorithms</h3>
+            <div class="cert-issuer">Centre for Professional Enhancement</div>
+            <div class="cert-date">July 2025</div>
+            <a href="https://drive.google.com/file/d/1OUxQEHo_OITaSYJD0Idw7usLBYiHZGnY/view?usp=drive_link" target="_blank" style="color: var(--accent-primary); font-size: 0.82rem; font-weight: 600; margin-top: 6px; display: inline-flex; align-items: center; gap: 4px;"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+          </div>
+        </div>
+
+        <div class="glass-card cert-card">
+          <div class="cert-icon"><i class="fab fa-java"></i></div>
+          <div class="cert-info">
+            <h3>Java Programming Course</h3>
+            <div class="cert-issuer">Neocolab</div>
+            <div class="cert-date">July 2025</div>
+            <a href="https://drive.google.com/file/d/1FQsmBFkxurlNu3pgEL3LvSfBFux_1fpc/view?usp=drive_link" target="_blank" style="color: var(--accent-primary); font-size: 0.82rem; font-weight: 600; margin-top: 6px; display: inline-flex; align-items: center; gap: 4px;"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+          </div>
+        </div>
+
+        <div class="glass-card cert-card">
+          <div class="cert-icon"><i class="fas fa-project-diagram"></i></div>
+          <div class="cert-info">
+            <h3>Data Structures &amp; Algorithms (C++)</h3>
+            <div class="cert-issuer">Neocolab</div>
+            <div class="cert-date">August 2024</div>
+            <a href="https://drive.google.com/file/d/1mqMILrR96ACs_uRugGF3drzFI37XZSka/view?usp=drive_link" target="_blank" style="color: var(--accent-primary); font-size: 0.82rem; font-weight: 600; margin-top: 6px; display: inline-flex; align-items: center; gap: 4px;"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+          </div>
+        </div>
+
+        <div class="glass-card cert-card">
+          <div class="cert-icon"><i class="fas fa-cubes"></i></div>
+          <div class="cert-info">
+            <h3>Object Oriented Programming (C++)</h3>
+            <div class="cert-issuer">Neocolab</div>
+            <div class="cert-date">August 2024</div>
+            <a href="https://drive.google.com/file/d/1GHK-dgmzq40GMOpIwvfqIiwR9Pp93NIL/view?usp=drive_link" target="_blank" style="color: var(--accent-primary); font-size: 0.82rem; font-weight: 600; margin-top: 6px; display: inline-flex; align-items: center; gap: 4px;"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+          </div>
+        </div>
+
+        <div class="glass-card cert-card">
+          <div class="cert-icon"><i class="fas fa-comments"></i></div>
+          <div class="cert-info">
+            <h3>English Communication &amp; Public Speaking</h3>
+            <div class="cert-issuer">Professional Enhancement Program</div>
+            <div class="cert-date">August 2024</div>
+            <a href="https://drive.google.com/file/d/17dpY8l6eIEGzYJ16P6t_oGEi6ucoSYjP/view?usp=drive_link" target="_blank" style="color: var(--accent-primary); font-size: 0.82rem; font-weight: 600; margin-top: 6px; display: inline-flex; align-items: center; gap: 4px;"><i class="fas fa-external-link-alt"></i> View Certificate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== ACHIEVEMENTS ======== -->
+  <section class="section" id="achievements" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="accent-line"></div>
+        <h2>Achievements</h2>
+        <p>Milestones on my coding journey</p>
+      </div>
+
+      <div class="achievements-grid stagger-children">
+        <div class="glass-card achievement-card">
+          <div class="achievement-icon">🏆</div>
+          <h3>HackerRank Python</h3>
+          <p>5-Star proficiency in Python skill assessment. Continuously strengthening expertise in algorithmic patterns.</p>
+          <div class="achievement-stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <a href="https://www.hackerrank.com/profile/amanzzz2022" target="_blank" class="btn btn-outline" style="margin-top: 16px; padding: 8px 20px; font-size: 0.85rem;">
+            <i class="fab fa-hackerrank"></i> View Profile
+          </a>
+        </div>
+
+        <div class="glass-card achievement-card">
+          <div class="achievement-icon">💡</div>
+          <h3>LeetCode 100+</h3>
+          <p>Solved 100+ problems covering arrays, linked lists, dynamic programming, graphs, and trees.</p>
+          <div class="achievement-stars">
+            <i class="fas fa-check-circle" style="color: var(--accent-secondary);"></i>
+            <span style="color: var(--accent-secondary); font-weight: 600; font-size: 0.9rem; margin-left: 4px;">100+ Solved</span>
+          </div>
+          <a href="https://leetcode.com/u/Void_Aman/" target="_blank" class="btn btn-outline" style="margin-top: 16px; padding: 8px 20px; font-size: 0.85rem;">
+            <i class="fas fa-code"></i> View Profile
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== BLOG SECTION ======== -->
+  <section class="section" id="blog">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="accent-line"></div>
+        <h2>Blog & Articles</h2>
+        <p>Sharing what I learn along the way</p>
+      </div>
+
+      <div class="blog-grid stagger-children">
+        <!-- Blog Post 1 -->
+        <div class="glass-card blog-card">
+          <div class="blog-card-image">
+            <img src="assets/images/blog-ml-intro.png" alt="Introduction to Machine Learning" loading="lazy" />
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-card-meta">
+              <span><i class="far fa-calendar-alt"></i> Mar 2025</span>
+              <span><i class="far fa-clock"></i> 5 min read</span>
+            </div>
+            <h3>Getting Started with Machine Learning: A Beginner's Roadmap</h3>
+            <p>Everything I wish I knew when I started my ML journey — from math prerequisites to building your first model.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Blog Post 2 -->
+        <div class="glass-card blog-card">
+          <div class="blog-card-image">
+            <img src="assets/images/blog-cv-guide.png" alt="Computer Vision with OpenCV" loading="lazy" />
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-card-meta">
+              <span><i class="far fa-calendar-alt"></i> Feb 2025</span>
+              <span><i class="far fa-clock"></i> 8 min read</span>
+            </div>
+            <h3>Real-Time Computer Vision with Python &amp; OpenCV</h3>
+            <p>A deep dive into image preprocessing, contour detection, and building real-time recognition pipelines.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+
+        <!-- Blog Post 3 -->
+        <div class="glass-card blog-card">
+          <div class="blog-card-image">
+            <img src="assets/images/blog-portfolio-tips.png" alt="Building a Developer Portfolio" loading="lazy" />
+          </div>
+          <div class="blog-card-body">
+            <div class="blog-card-meta">
+              <span><i class="far fa-calendar-alt"></i> Jan 2025</span>
+              <span><i class="far fa-clock"></i> 4 min read</span>
+            </div>
+            <h3>How to Build a Portfolio That Stands Out as a Student</h3>
+            <p>Tips and strategies for making your portfolio showcase your skills and impress recruiters.</p>
+            <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== CONTACT SECTION ======== -->
+  <section class="section" id="contact" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="accent-line"></div>
+        <h2>Get In Touch</h2>
+        <p>Have a question or want to work together? Let's connect!</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info -->
+        <div class="contact-info reveal-left">
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <a href="mailto:amanzzz2022@gmail.com">amanzzz2022@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fas fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <p>+91 8318012467</p>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fab fa-github"></i></div>
+            <div>
+              <h4>GitHub</h4>
+              <a href="https://github.com/RockZoid2080" target="_blank">github.com/RockZoid2080</a>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+            <div>
+              <h4>LinkedIn</h4>
+              <a href="https://www.linkedin.com/in/amansingh2005" target="_blank">linkedin.com/in/amansingh2005</a>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div>
+              <h4>Location</h4>
+              <p>Phagwara, Punjab, India</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="glass-card contact-form reveal-right" id="contactForm" action="https://formsubmit.co/amanzzz2022@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New Portfolio Contact Message!">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+          <input type="text" name="_honey" style="display:none">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Let's collaborate!" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about your project or idea..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+          <div class="form-status" id="formStatus"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#hero" class="nav-logo" style="font-size: 1.8rem;">AS</a>
+
+        <div class="footer-social">
+          <a href="https://github.com/RockZoid2080" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/amansingh2005" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="mailto:amanzzz2022@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <p class="footer-text">
+          Made with <span class="heart">&hearts;</span> by Aman Singh &bull; &copy; 2025
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>

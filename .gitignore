@@ -1,3 +1,17 @@
+# Dependencies
+node_modules/
+
+# Next.js build
+.next/
+out/
+
+# Misc
+*.log
+.DS_Store
+link.html
+meta.txt
+img_url.txt
+
 # Source CV files (not needed on website)
 Aman_CV.docx
 Aman_CV.pdf
